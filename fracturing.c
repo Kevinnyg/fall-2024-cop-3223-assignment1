@@ -1,3 +1,6 @@
+// Kevin Nguyen
+// UCFID 5375555
+
 #include <stdio.h>
 #include <math.h>
 #define PI 3.14159
@@ -13,7 +16,7 @@ void askForUserInput(double *x1, double *y1, double *x2, double *y2);  // Helper
 int main(int argc, char **argv) {
     double x1, y1, x2, y2, distance;
 
-    // Ask for user input once
+    // Ask for user input
     askForUserInput(&x1, &y1, &x2, &y2);
 
     // Calculate the distance between the two points
