@@ -81,7 +81,7 @@ double calculateArea(double distance) {
 
 // Function to calculate the width of the city 
 double calculateWidth(double distance) {
-    // Print the width (which is the distance)
+    // Print the width 
     printf("The width of the city encompassed by your request is %.2lf\n", distance);
 
     return distance;  // Return the width
@@ -89,7 +89,7 @@ double calculateWidth(double distance) {
 
 // Function to calculate the height of the city 
 double calculateHeight(double distance) {
-    // Print the height (which is the distance)
+    // Print the height 
     printf("The height of the city encompassed by your request is %.2lf\n", distance);
 
     return distance;  // Return the height
